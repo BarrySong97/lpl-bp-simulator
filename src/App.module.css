@@ -1,0 +1,61 @@
+.app {
+  display: flex;
+}
+.mid {
+  flex: 3;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.leftTeam {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  background-color: blue;
+}
+
+.teamPickItem {
+  box-sizing: border-box;
+  border: 1px solid;
+  height: 20vh;
+  background-color: teal;
+}
+.rightTeam {
+  flex: 1;
+  height: 100vh;
+  background-color: red;
+}
+
+.gameInfo {
+  background-color: red;
+  display: flex;
+}
+
+.leftTeamInfo {
+  margin-right: 32px;
+  flex: 1;
+}
+
+.leftTeamName {
+  text-align: right;
+}
+.leftTeamScore {
+  text-align: right;
+}
+.rightTeamInfo {
+  margin-left: 32px;
+  flex: 1;
+}
+
+.matchInfo {
+  
+  flex: 3;
+}
+
+.countdown {
+  text-align: center;
+}
